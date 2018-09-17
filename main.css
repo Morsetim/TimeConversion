@@ -1,0 +1,32 @@
+#output{
+  height: 60px;
+  width: 200px;
+  margin-left: 200px;
+  font-size: 29px;
+}
+.ttt{
+  display: flex;
+  flex-flow: column;
+  width: 800px;
+}
+.bbb{
+  display: flex;
+}
+.jjj{
+  display: flex;
+  width: 400px;
+  margin: auto;
+}
+#jkl{
+margin-left: 140px;
+background-color: rgb(91, 91, 180);
+color: #ffffff;
+}
+#klm{
+  margin-left: -60px;
+  background-color: rgb(91, 91, 180);
+  color: #ffffff;
+  }
+ul li{
+  list-style-type:  none;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="ttt">
+    <ul>
+      <li>
+        <div id="output"></div>
+      </li>
+    </ul>
+    <ul class="bbb">
+      <li>24hrs time:
+        <input type="text" placeholder="24:00:00" id="24">
+      </li>
+      <li>12hrs time:
+        <input type="text" placeholder="10:00:00" id="12">
+        <select id="sel">
+          <option value="AM">AM</option>
+          <option value="PM">PM</option>
+        </select>
+      </li>
+    </ul>
+    <div class="jjj">
+      <button id="klm" onclick="twentyFourTo12();">Convert to 12hrs</button>
+      <button id="jkl" onclick="twelveTo24Hours();">Convert to 24hrs</button>
+
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
